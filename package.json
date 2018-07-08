@@ -1,7 +1,7 @@
 {
   "name": "chaaat",
   "version": "1.0.0",
-  "description": "",
+  "description": "Anonymous, end-to-end protected, open source chat",
   "main": "index.js",
   "scripts": {
     "start": "node -r dotenv/config index.js",
@@ -20,6 +20,8 @@
   "dependencies": {
     "cryptico": "^1.0.2",
     "dotenv": "^6.0.0",
-    "mysql": "^2.15.0"
+    "express": "^4.16.3",
+    "helmet": "^3.12.1",
+    "mongoose": "^5.2.1"
   }
 }
