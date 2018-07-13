@@ -5,6 +5,8 @@ let app = express()
 
 app.use(helmet)
 
+app.use(express.static(__dirname + '/static'))
+
 app.get("/", function (req, res) {
   res.send("Hello World!")
 })
