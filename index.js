@@ -1,3 +1,4 @@
+require("sqreen")
 let express = require("express")
 let helmet = require("helmet")()
 let app = express()
